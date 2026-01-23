@@ -1,5 +1,5 @@
 from langchain_core.tools import tool
-from .mock_data import HOME_DEVICES
+from data.devices import HOME_DEVICES
 import json
 
 @tool

@@ -12,7 +12,7 @@ from deepagents import create_deep_agent
 from deepagents.backends import FilesystemBackend
 
 # Local Imports
-from skills.iot_tools import check_device_status, turn_off_device
+from tools.iot import check_device_status, turn_off_device
 
 # Load environment variables
 load_dotenv()
